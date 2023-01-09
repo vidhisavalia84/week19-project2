@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Gorest application" skipped="0" tests="1" time="1.83" timestamp="2023-01-08T20:47:03.645Z[Europe/London]"><testcase name="CRUD Test"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.steps.UsersSteps.getUserByuserID1(UsersSteps.java:59)&#13;
+com.gorest.cucumber.steps.UserCRUDSteps.iCheckUserIsUpdatedSuccessfully(UserCRUDSteps.java:56)&#13;
+✽.And I check user is updated successfully(userCRUDTest.feature:9)&#13;
+</system-err></testcase></testsuite>

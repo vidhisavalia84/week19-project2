@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing different request on the gorest users","Check user is created","SUCCESS","2023-01-08T20:46:49.396Z[Europe/London]","0.0","9.65"
+"Testing different request on the gorest users","Get created user with userId","SUCCESS","2023-01-08T20:47:01.186Z[Europe/London]","0.0","0.86"
+"Testing different request on the gorest users","Update created user with userId","SUCCESS","2023-01-08T20:47:02.108Z[Europe/London]","0.0","0.51"
+"Testing different request on the gorest users","Delete created user","SUCCESS","2023-01-08T20:47:02.679Z[Europe/London]","0.0","0.9"
