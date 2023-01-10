@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","Provided correct HTTP method to access resource and validate response code 200","SUCCESS","2023-01-09T23:09:37.742Z[Europe/London]","0.0","0.36"

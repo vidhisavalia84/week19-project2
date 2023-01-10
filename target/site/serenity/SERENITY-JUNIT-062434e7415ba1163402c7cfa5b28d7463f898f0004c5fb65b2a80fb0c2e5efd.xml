@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Gorest application" skipped="0" tests="1" time="1.83" timestamp="2023-01-08T20:47:03.645Z[Europe/London]"><testcase name="CRUD Test"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Gorest application" skipped="0" tests="1" time="1.66" timestamp="2023-01-09T23:09:43.390Z[Europe/London]"><testcase name="CRUD Test"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;200&gt;.

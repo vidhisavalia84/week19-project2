@@ -1,6 +1,8 @@
-com\gorest\testbase\TestBase.class
 com\gorest\crudtests\UsersCRUDTest.class
 com\gorest\cucumber\steps\MySteps.class
 com\gorest\cucumber\CucumberRunner.class
 com\gorest\crudtests\PostsCRUDTest.class
+com\gorest\crudtests\TagsTest.class
 com\gorest\cucumber\steps\UserCRUDSteps.class
+com\gorest\testbase\TestBase.class
+com\gorest\crudtests\CreateUserDataDrivenTest.class

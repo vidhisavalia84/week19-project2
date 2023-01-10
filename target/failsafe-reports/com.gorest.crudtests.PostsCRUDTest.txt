@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.gorest.crudtests.PostsCRUDTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.665 sec <<< FAILURE! - in com.gorest.crudtests.PostsCRUDTest
-test001(com.gorest.crudtests.PostsCRUDTest)  Time elapsed: 0.016 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.gorest.crudtests.PostsCRUDTest.test001(PostsCRUDTest.java:37)
-
-test002(com.gorest.crudtests.PostsCRUDTest)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.gorest.crudtests.PostsCRUDTest.test002(PostsCRUDTest.java:48)
-
-test003(com.gorest.crudtests.PostsCRUDTest)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.gorest.crudtests.PostsCRUDTest.test003(PostsCRUDTest.java:58)
-
-test004(com.gorest.crudtests.PostsCRUDTest)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.gorest.crudtests.PostsCRUDTest.test004(PostsCRUDTest.java:67)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.654 sec - in com.gorest.crudtests.PostsCRUDTest

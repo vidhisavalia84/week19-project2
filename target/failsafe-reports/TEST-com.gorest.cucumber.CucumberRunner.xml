@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gorest.cucumber.CucumberRunner" time="2.273" tests="20" errors="0" skipped="2" failures="2">
+<testsuite name="com.gorest.cucumber.CucumberRunner" time="0.148" tests="20" errors="0" skipped="2" failures="2">
   <properties>
     <property name="idea.version" value="2022.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,9 +65,9 @@
   </properties>
   <testcase name="When User send post request with name &quot;Prime&quot; gender &quot;male&quot; email &quot;prime@gmail.com&quot; status &quot;active&quot;" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
   <testcase name="Then User should be  created and validate response code 200" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
-  <testcase name="| Prime | male | prime@gmail.com | active |" classname="| Prime | male | prime@gmail.com | active |" time="2.146"/>
-  <testcase name="| Prime | male | prime@gmail.com | active |" classname="| Prime | male | prime@gmail.com | active |" time="0.062"/>
-  <testcase name="| Prime | male | prime@gmail.com | active |" classname="| Prime | male | prime@gmail.com | active |" time="0.005">
+  <testcase name="| Prime | male | prime@gmail.com | active |" classname="| Prime | male | prime@gmail.com | active |" time="0.088"/>
+  <testcase name="| Prime | male | prime@gmail.com | active |" classname="| Prime | male | prime@gmail.com | active |" time="0.046"/>
+  <testcase name="| Prime | male | prime@gmail.com | active |" classname="| Prime | male | prime@gmail.com | active |" time="0.006">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -82,17 +82,16 @@ Expected status code <201> but was <200>.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$19.call(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor532.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.specification.ResponseSpecification$statusCode$3.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at com.gorest.steps.UsersSteps.getUserByuserID1(UsersSteps.java:59)
@@ -111,17 +110,17 @@ Expected status code <201> but was <200>.
   </testcase>
   <testcase name="When User send get request" classname="Scenario: Get created user with userId" time="0"/>
   <testcase name="Then validate response code 201" classname="Scenario: Get created user with userId" time="0"/>
-  <testcase name="Scenario: Get created user with userId" classname="Scenario: Get created user with userId" time="0.062"/>
+  <testcase name="Scenario: Get created user with userId" classname="Scenario: Get created user with userId" time="0.032"/>
   <testcase name="When User send update request with name &quot;Prime&quot; gender &quot;male&quot;  email &quot;prime@gmail.com&quot; status &quot;active&quot;" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
   <testcase name="Then User should be updated and validate status code 200" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
   <testcase name="When User send delete request" classname="Scenario: Delete created user" time="0"/>
   <testcase name="Then User should be deleted and validate response code 204" classname="Scenario: Delete created user" time="0"/>
-  <testcase name="Scenario: Delete created user" classname="Scenario: Delete created user" time="0.063"/>
+  <testcase name="Scenario: Delete created user" classname="Scenario: Delete created user" time="0.022"/>
   <testcase name="Given URL is given" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
   <testcase name="When I create user with name &quot;Prime&quot; gender &quot;male&quot; email &quot;prime@gmail.com&quot; status &quot;active&quot;" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
   <testcase name="Then I verify that user is created with &quot;Prime&quot;" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
   <testcase name="And I update user with userId  name &quot;Prime&quot; gender &quot;male&quot; email &quot;prime@gmail.com&quot; status &quot;active&quot;" classname="| Prime | male | prime@gmail.com | active |" time="0"/>
-  <testcase name="And I check user is updated successfully" classname="| Prime | male | prime@gmail.com | active |" time="0.002">
+  <testcase name="And I check user is updated successfully" classname="| Prime | male | prime@gmail.com | active |" time="0.006">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -136,17 +135,16 @@ Expected status code <201> but was <200>.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$19.call(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor532.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.specification.ResponseSpecification$statusCode$3.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at com.gorest.steps.UsersSteps.getUserByuserID1(UsersSteps.java:59)
@@ -163,12 +161,12 @@ Expected status code <201> but was <200>.
 	at ✽.And I check user is updated successfully(userCRUDTest.feature:9)
 ]]></failure>
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://gorest.co.in/public/v2/users/37073
+Request URI:	https://gorest.co.in/public/v2/users/40161
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	userID=37073
+Path params:	userID=40161
 Multiparts:		<none>
 Headers:		Authorization=Bearer a58049a1423e7d9a9d0f744f34e6a883d3f4228d9f8e198bd163aa265bbf5906
 				Accept=*/*

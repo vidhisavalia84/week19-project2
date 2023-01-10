@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Users CRUD test","Create a new User","SUCCESS","2023-01-09T23:09:39.106Z[Europe/London]","0.0","0.42"
+"Users CRUD test","Verify that user added successfully","SUCCESS","2023-01-09T23:09:39.526Z[Europe/London]","0.0","0.47"
+"Users CRUD test","Update user details","SUCCESS","2023-01-09T23:09:39.999Z[Europe/London]","0.0","0.49"
+"Users CRUD test","Delete the user","SUCCESS","2023-01-09T23:09:40.489Z[Europe/London]","0.0","0.88"

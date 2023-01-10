@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","Provided correct HTTP method to access resource and validate response code 200","SUCCESS","2023-01-09T23:09:37.742Z[Europe/London]","0.0","0.36"
+"Tags test","This test will provide error code 400 when user tries to acces invalid resources","SUCCESS","2023-01-09T23:09:38.106Z[Europe/London]","0.0","0.6"
+"Tags test","Provide incorrect  HTTP method(ex: used put insted of get) to access resources,and responce should be 404","SUCCESS","2023-01-09T23:09:38.706Z[Europe/London]","0.0","0.35"
